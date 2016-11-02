@@ -21,5 +21,8 @@
     "koa": "^2.0.0-alpha.6",
     "mime-types": "^2.1.11",
     "spdy": "^3.4.0"
-  }
+  },
+  "files": [
+    "index.js"
+  ]
 }
