@@ -1,0 +1,25 @@
+{
+  "name": "koa-h2-man-pusher",
+  "version": "0.0.0",
+  "description": "server push middleware for koa w/ manifest support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "koa",
+    "koa-middleware",
+    "server-push",
+    "http2-push",
+    "spdy-push",
+    "koa-server-push",
+    "http2-push-manifest"
+  ],
+  "author": "kasperlewau",
+  "license": "MIT",
+  "dependencies": {
+    "koa": "^2.0.0-alpha.6",
+    "mime-types": "^2.1.11",
+    "spdy": "^3.4.0"
+  }
+}
