@@ -21,7 +21,7 @@ const app = new Koa();
 app.use(manpush.manifestor({ manifest: 'manifest.json' }));
 app.use(manpush.push());
 
-const server = spdy.createServer({ key: 'path/to/ssl.key', cert: 'path/to/ssl.crt' }, koa.callback());
+const server = spdy.createServer({ key: 'path/to/ssl.key', cert: 'path/to/ssl.crt' }, app.callback());
 
 server.listen(3000);
 ```
