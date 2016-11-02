@@ -1,0 +1,402 @@
+{
+  "/css/50.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/49.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/48.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/47.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/46.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/45.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/44.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/43.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/42.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/41.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/40.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/39.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/38.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/37.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/36.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/35.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/34.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/33.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/32.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/31.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/30.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/29.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/28.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/27.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/26.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/25.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/24.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/23.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/22.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/21.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/20.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/19.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/18.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/17.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/16.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/15.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/14.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/13.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/12.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/11.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/10.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/9.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/8.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/7.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/6.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/5.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/4.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/3.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/2.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/1.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/js/50.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/49.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/48.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/47.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/46.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/45.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/44.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/43.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/42.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/41.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/40.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/39.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/38.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/37.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/36.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/35.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/34.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/33.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/32.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/31.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/30.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/29.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/28.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/27.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/26.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/25.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/24.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/23.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/22.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/21.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/20.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/19.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/18.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/17.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/16.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/15.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/14.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/13.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/12.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/11.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/10.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/9.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/8.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/7.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/6.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/5.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/4.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/3.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/2.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/1.js": {
+    "weight": 1,
+    "type": "script"
+  }
+}

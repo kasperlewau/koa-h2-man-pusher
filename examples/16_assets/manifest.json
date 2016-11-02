@@ -1,0 +1,66 @@
+{
+  "/css/1.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/2.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/3.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/4.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/5.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/6.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/7.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/css/8.css": {
+    "weight": 1,
+    "type": "style"
+  },
+  "/js/1.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/2.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/3.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/4.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/5.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/6.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/7.js": {
+    "weight": 1,
+    "type": "script"
+  },
+  "/js/8.js": {
+    "weight": 1,
+    "type": "script"
+  }
+}
