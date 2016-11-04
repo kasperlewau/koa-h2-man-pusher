@@ -8,7 +8,7 @@ const koa = new Koa();
 
 koa
     .use(push.manifestor({ manifest: 'manifest.json' }))
-    .use(push.pusher())
+    .use(push.pusher({ root: '.' }))
     .use(statik('.'));
 
 
