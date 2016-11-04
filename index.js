@@ -4,7 +4,7 @@ const mime = require('mime-types');
 const fs = require('fs');
 const zlib = require('zlib');
 
-function manifestor (opts) {
+function manifestor (opts = {}) {
     const manifest = require(path.resolve('.', opts.manifest));
 
     return function (ctx, next) {
@@ -27,7 +27,7 @@ function manifestor (opts) {
     }
 }
 
-function pusher (opts) {
+function pusher (opts = {}) {
     return function (ctx, next) {
         function push (key) {
             const popts = {
