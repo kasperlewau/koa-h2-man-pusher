@@ -2,6 +2,7 @@ const path = require('path');
 const url = require('url');
 const mime = require('mime-types');
 const fs = require('fs');
+const zlib = require('zlib');
 
 function manifestor (opts) {
     const manifest = require(path.resolve('.', opts.manifest));
@@ -26,41 +27,40 @@ function manifestor (opts) {
     }
 }
 
-function pusher () {
+function pusher (opts) {
     return function (ctx, next) {
-        const { res, req, state } = ctx;
-
-        function push (file) {
-            const opts = {
+        function push (key) {
+            const popts = {
                 request: {
                     accept: '*/*'
                 },
                 response: {
-                    'content-type': mime.lookup(file)
+                    'server': 'koa-h2-man-push',
+                    'content-type': mime.lookup(key),
+                    'content-encoding': 'gzip'
                 }
             };
 
-            const p = res.push(file, opts, (_, stream) => {
-                function cleanup (err) {
-                    if (err) {
-                        console.error(err.stack);
-                    }
-                }
+            const content = fs.createReadStream(path.join((opts.root || '.'), key));
+            const p = ctx.res.push(key, popts);
 
-                stream.on('error', cleanup);
-                stream.on('close', cleanup);
-                stream.on('finish', cleanup);
+            content.pipe(zlib.createGzip()).pipe(p);
+
+            p.on('error', err => {
+                console.error(err);
             });
 
-            const content = fs.createReadStream(path.resolve('.', file.replace(/^\//, '')));
-            content.pipe(p);
+            return p;
         }
 
-        if (req.url === '/') {
-            Object.keys(state.h2).map(push);
-        }
+        return next().then(() => {
+            // no manifest? nothing to push. move along!
+            if (!ctx.state.h2) {
+                return;
+            }
 
-        return next();
+            Object.keys(ctx.state.h2).forEach(push);
+        });
     }
 }
 
