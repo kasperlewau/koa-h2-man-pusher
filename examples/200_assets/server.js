@@ -7,8 +7,7 @@ const push = require('../../');
 const koa = new Koa();
 
 koa
-    .use(push.manifestor({ manifest: 'manifest.json' }))
-    .use(push.pusher({ root: '.' }))
+    .use(push({ manifest: 'manifest.json' }))
     .use(statik('.'));
 
 

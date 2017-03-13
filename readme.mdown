@@ -4,27 +4,47 @@
 ## Note: This is an unstable WIP. Don't go prod.
 > also holds true for the readme. it is very sparse right now.
 
-## installation
+## Installation
 
 ```sh
 npm install koa-h2-man-pusher --save
 ```
 
-## usage
+## API
+
+### manpusher([opts])
+### opts.root
+Type: `string`<br>
+Default: `.`
+
+Root path to read from.
+
+### opts.manifest
+Type: `string`<br>
+Default: `push_manifest.json`
+
+Path to your [http2-push-manifest]().
+
+## Usage
 ```js
 const spdy = require('spdy');
 const Koa = require('koa');
-const manpush = require('koa-h2-man-pusher');
+const manpusher = require('koa-h2-man-pusher');
 
 const app = new Koa();
 
-app.use(manpush.manifestor({ manifest: 'manifest.json' }));
-app.use(manpush.push());
+app.use(manpusher({
+  manifest: 'stuff/manifest.json',
+  root: 'dist'
+}));
 
-const server = spdy.createServer({ key: 'path/to/ssl.key', cert: 'path/to/ssl.crt' }, app.callback());
+const server = spdy.createServer({
+  key: 'path/to/ssl.key',
+  cert: 'path/to/ssl.crt'
+}, app.callback());
 
 server.listen(3000);
 ```
 
-## copyright
+## Copyright
 MIT
